@@ -1,6 +1,7 @@
 body{
     text-align: center;
 }
+
 .button{
     border-radius: 1.05rem;
     width: 70px;
@@ -44,4 +45,104 @@ body{
 }
 .userflash{
     background-color: aqua;
+}
+@media(max-width:500px){
+    body{
+        text-align: center;
+    }
+    
+    .button{
+        border-radius: 1.05rem;
+        width: 70px;
+        height: 20px;
+        color: white;
+        background-color: blue;
+        border: 2px solid rgb(209, 15, 15);
+        
+    
+    }
+    .button:hover{
+        background-color:rgb(30, 0, 255);
+        border: 2px solid red;
+    }
+    .btn{
+        height: 130px;
+        width: 130px;
+        border-radius: 20%;
+        border: 10px solid black;
+        margin: 1.5rem;
+    }
+    .btn_container{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .red{
+        background-color: red;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .flash{
+        background-color: white;
+    }
+    .userflash{
+        background-color: aqua;
+    }
+}
+@media(max-width:360px){
+    body{
+        text-align: center;
+    }
+    
+    .button{
+        border-radius: 1.05rem;
+        width: 70px;
+        height: 20px;
+        color: white;
+        background-color: blue;
+        border: 2px solid rgb(209, 15, 15);
+        
+    
+    }
+    .button:hover{
+        background-color:rgb(30, 0, 255);
+        border: 2px solid red;
+    }
+    .btn{
+        height: 90px;
+        width: 90px;
+        border-radius: 20%;
+        border: 10px solid black;
+        margin: 1.5rem;
+    }
+    .btn_container{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .red{
+        background-color: red;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .flash{
+        background-color: white;
+    }
+    .userflash{
+        background-color: aqua;
+    }
 }
