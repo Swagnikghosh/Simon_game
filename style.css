@@ -1,6 +1,20 @@
 body{
     text-align: center;
 }
+.button{
+    border-radius: 1.05rem;
+    width: 70px;
+    height: 20px;
+    color: white;
+    background-color: blue;
+    border: 2px solid rgb(209, 15, 15);
+    
+
+}
+.button:hover{
+    background-color:rgb(30, 0, 255);
+    border: 2px solid red;
+}
 .btn{
     height: 180px;
     width: 180px;
