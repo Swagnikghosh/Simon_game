@@ -25,7 +25,7 @@ function levelup(){
     let randbtn=btns[random];
     let btn=document.querySelector(`.${randbtn}`);
     gameseq.push(randbtn);
-    console.log(gameseq);
+    //console.log(gameseq);
     flash(btn);
 
 }
